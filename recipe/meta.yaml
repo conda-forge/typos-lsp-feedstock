@@ -1,5 +1,5 @@
 {% set name = "typos-lsp" %}
-{% set version = "0.1.28" %}
+{% set version = "0.1.29" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tekumara/typos-lsp/archive/v{{ version }}.tar.gz
-  sha256: 45a5399c7c972fcdf5681ae6a606d74642be6ecd68f14d7c38f722183d41f06c
+  sha256: fc384ce087360571cfa047706b4e0722dd43602dea20763b13043a31afaacad7
 
 build:
   number: 0
