@@ -1,8 +1,7 @@
-{% set name = "typos-lsp" %}
 {% set version = "0.1.45" %}
 
 package:
-  name: {{ name|lower }}
+  name: typos-lsp
   version: {{ version }}
 
 source:
