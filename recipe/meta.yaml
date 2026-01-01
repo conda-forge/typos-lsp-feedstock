@@ -1,4 +1,4 @@
-{% set version = "0.1.46" %}
+{% set version = "0.1.47" %}
 
 package:
   name: typos-lsp
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/tekumara/typos-lsp/archive/v{{ version }}.tar.gz
-  sha256: 9cd5764fcee10fa7025b528b59f3244ddbcf886fe906d66ca89a0e679e766fe1
+  sha256: f8e427e0340c3d212541ab6350ae52c971a0b0607c0c9cdd2215616b27d12fc4
 
 build:
   number: 0
